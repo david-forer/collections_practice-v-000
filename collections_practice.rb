@@ -11,6 +11,6 @@ def sort_array_desc(integers)
 end
 
 def sort_array_char_count(integer)
-  integers.sort {|a,b| a.length <=> b.length}
+  integer.sort {|a,b| a.length <=> b.length}
   
 end
