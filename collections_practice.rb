@@ -16,8 +16,9 @@ def sort_array_char_count(integer)
 end
 
 array = [duck, bird, eagle, condor, hawk]
+
 def swap_elements(array)
   array[1], array[2] = array[2], array[1]
-  return array
+ array
   
 end
