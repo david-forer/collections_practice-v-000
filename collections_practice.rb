@@ -14,3 +14,10 @@ def sort_array_char_count(integer)
   integer.sort {|a,b| a.length <=> b.length}
   
 end
+
+array = [duck, bird, eagle, condor, hawk]
+def swap_elements(array)
+  array[1], array[2] = array[2], array[1]
+  return array
+  
+end
