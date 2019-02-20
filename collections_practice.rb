@@ -6,7 +6,7 @@ def sort_array_asc(integers)
 end
 
 def sort_array_desc(integers)
-  array.sort {|a,b| b<=>a} 
+ integers.sort {|a,b| b<=>a} 
   end
   
 end
