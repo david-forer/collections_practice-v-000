@@ -4,3 +4,5 @@ def sort_array_asc(integers)
   end
  
 end
+
+def sort_array
